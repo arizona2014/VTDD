@@ -1,0 +1,10 @@
+@@ table devices
+  | device    | size     |
+  | mobile    | 480x600  |
+  | tablet    | 900x600  |
+  | desktop   | 1300x700 |
+
+@@ parameterized using devices
+Shopping cart on ${device} device
+  ${websiteUrl} ${size}
+    check specs/shopping-cart.spec --include "${device}"

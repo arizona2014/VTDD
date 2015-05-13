@@ -1,0 +1,192 @@
+{
+  "testId" : "3-shopping-cart-on-desktop-device",
+  "name" : "Shopping cart on desktop device",
+  "report" : {
+    "nodes" : [ {
+      "name" : "file:///C:/TEST/GALEN/shopping-cart/website/shopping-cart.html 1300x700",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "    check specs/shopping-cart.spec --include \"desktop\"",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: specs/shopping-cart.spec included tags: desktop",
+          "status" : "info",
+          "time" : 1429177781048,
+          "includedTags" : [ "desktop" ],
+          "sections" : [ {
+            "name" : "Header",
+            "objects" : [ {
+              "name" : "header",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 12
+                },
+                "name" : "inside: screen 0px top left right",
+                "highlight" : [ "header", "screen" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 13
+                },
+                "name" : "height: 58px",
+                "highlight" : [ "header" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Navigation",
+            "objects" : [ {
+              "name" : "navigation",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 18
+                },
+                "name" : "inside: screen 0px left",
+                "highlight" : [ "navigation", "screen" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 19
+                },
+                "name" : "below: header 0px",
+                "highlight" : [ "navigation", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 24
+                },
+                "name" : "width: 185 to 335px",
+                "highlight" : [ "navigation" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 25
+                },
+                "name" : "aligned horizontally all: main",
+                "highlight" : [ "navigation", "main" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 26
+                },
+                "name" : "near: main 0px left",
+                "highlight" : [ "navigation", "main" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Footer",
+            "objects" : [ {
+              "name" : "footer",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 45
+                },
+                "name" : "inside: screen 0px left right",
+                "highlight" : [ "footer", "screen" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 46
+                },
+                "name" : "below: banner-panel 0px",
+                "highlight" : [ "footer", "banner-panel" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 47
+                },
+                "name" : "height: 100px",
+                "highlight" : [ "footer" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Main",
+            "objects" : [ {
+              "name" : "main",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 52
+                },
+                "name" : "below: header 0px",
+                "highlight" : [ "main", "header" ]
+              } ]
+            }, {
+              "name" : "banner-panel",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 52
+                },
+                "name" : "below: header 0px",
+                "highlight" : [ "banner-panel", "header" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Banner panel",
+            "objects" : [ {
+              "name" : "banner-panel",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 69
+                },
+                "name" : "width: 220 to 400px",
+                "highlight" : [ "banner-panel" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 70
+                },
+                "name" : "aligned horizontally all: main",
+                "highlight" : [ "banner-panel", "main" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "footer" : {
+              "area" : [ 0, 158, 1286, 100 ]
+            },
+            "screen" : {
+              "area" : [ 0, 0, 1286, 606 ]
+            },
+            "navigation" : {
+              "area" : [ 0, 58, 214, 100 ]
+            },
+            "banner-panel" : {
+              "area" : [ 965, 58, 322, 100 ]
+            },
+            "header" : {
+              "area" : [ 0, 0, 1286, 58 ]
+            },
+            "main" : {
+              "area" : [ 214, 58, 750, 100 ]
+            }
+          },
+          "screenshot" : "layout-3-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1429177779891,
+        "type" : "node"
+      } ],
+      "time" : 1429177777071,
+      "type" : "node"
+    } ]
+  }
+}

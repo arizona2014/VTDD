@@ -1,0 +1,30 @@
+#header {
+    background: #2E849E;
+    color: white;
+    border-radius: 0;
+}
+
+#navigation {
+    background: #faa;
+    height: 100px;
+}
+
+#main-container {
+    background: #afa;
+    height: 100px;
+}
+
+#banner-panel {
+    background: #aaf;
+    height: 100px;
+}
+
+#footer {
+    color: white;
+    background: #222;
+    height: 100px
+}
+
+.rowGood {
+    margin:0px;
+}

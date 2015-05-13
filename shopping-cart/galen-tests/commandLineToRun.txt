@@ -1,0 +1,3 @@
+galen test shoppingCart.test -DwebsiteUrl="file:///C:/TEST/GALEN/shopping-cart/website/shopping-cart.html" --htmlreport reportsYYY
+
+

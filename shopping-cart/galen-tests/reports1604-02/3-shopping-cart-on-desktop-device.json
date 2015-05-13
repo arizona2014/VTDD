@@ -1,0 +1,212 @@
+{
+  "testId" : "3-shopping-cart-on-desktop-device",
+  "name" : "Shopping cart on desktop device",
+  "report" : {
+    "nodes" : [ {
+      "name" : "file:///C:/TEST/GALEN/shopping-cart/website/shopping-cart.html 1300x700",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "    check specs/shopping-cart.spec --include \"desktop\"",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: specs/shopping-cart.spec included tags: desktop",
+          "status" : "error",
+          "time" : 1429176166800,
+          "includedTags" : [ "desktop" ],
+          "sections" : [ {
+            "name" : "Header",
+            "objects" : [ {
+              "name" : "header",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 12
+                },
+                "name" : "inside: screen 0px top left right",
+                "errors" : [ "\"header\" is 15px right instead of 0px" ],
+                "highlight" : [ "header", "screen" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 13
+                },
+                "name" : "height: 50px",
+                "errors" : [ "\"header\" height is 58px instead of 50px" ],
+                "highlight" : [ "header" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Navigation",
+            "objects" : [ {
+              "name" : "navigation",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 18
+                },
+                "name" : "inside: screen 0px left",
+                "errors" : [ "\"navigation\" is -15px left instead of 0px" ],
+                "highlight" : [ "navigation", "screen" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 19
+                },
+                "name" : "below: header 0px",
+                "highlight" : [ "navigation", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 24
+                },
+                "name" : "width: 200 to 350px",
+                "highlight" : [ "navigation" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 25
+                },
+                "name" : "aligned horizontally all: main",
+                "highlight" : [ "navigation", "main" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 26
+                },
+                "name" : "near: main 0px left",
+                "highlight" : [ "navigation", "main" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Footer",
+            "objects" : [ {
+              "name" : "footer",
+              "specs" : [ {
+                "status" : "warn",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 45
+                },
+                "name" : "inside: screen 0px bottom left right",
+                "errors" : [ "\"footer\" is 331px bottom and 15px right instead of 0px" ],
+                "highlight" : [ "footer", "screen" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 46
+                },
+                "name" : "below: banner-panel 0px",
+                "highlight" : [ "footer", "banner-panel" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 47
+                },
+                "name" : "height: 100px",
+                "highlight" : [ "footer" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Main",
+            "objects" : [ {
+              "name" : "main",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 52
+                },
+                "name" : "below: header 0px",
+                "highlight" : [ "main", "header" ]
+              } ]
+            }, {
+              "name" : "banner-panel",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 52
+                },
+                "name" : "below: header 0px",
+                "highlight" : [ "banner-panel", "header" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Banner panel",
+            "objects" : [ {
+              "name" : "banner-panel",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 69
+                },
+                "name" : "inside: screen 0px right",
+                "highlight" : [ "banner-panel", "screen" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 70
+                },
+                "name" : "width: 220 to 400px",
+                "highlight" : [ "banner-panel" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 71
+                },
+                "name" : "near: main 0px right",
+                "highlight" : [ "banner-panel", "main" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 72
+                },
+                "name" : "aligned horizontally all: main",
+                "highlight" : [ "banner-panel", "main" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "footer" : {
+              "area" : [ 0, 158, 1286, 100 ]
+            },
+            "screen" : {
+              "area" : [ 0, 0, 1301, 589 ]
+            },
+            "navigation" : {
+              "area" : [ -15, 58, 219, 100 ]
+            },
+            "banner-panel" : {
+              "area" : [ 972, 58, 329, 100 ]
+            },
+            "header" : {
+              "area" : [ 0, 0, 1286, 58 ]
+            },
+            "main" : {
+              "area" : [ 204, 58, 768, 100 ]
+            }
+          },
+          "screenshot" : "layout-3-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1429176165685,
+        "type" : "node"
+      } ],
+      "time" : 1429176162842,
+      "type" : "node"
+    } ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "testId" : "2-shopping-cart-on-tablet-device",
+  "name" : "Shopping cart on tablet device",
+  "report" : {
+    "nodes" : [ {
+      "name" : "file:///C:/TEST/GALEN/shopping-cart/website/shopping-cart.html 900x600",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "    check specs/shopping-cart.spec --include \"tablet\"",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: specs/shopping-cart.spec included tags: tablet",
+          "status" : "info",
+          "time" : 1431530792654,
+          "includedTags" : [ "tablet" ],
+          "sections" : [ {
+            "name" : "Header",
+            "objects" : [ {
+              "name" : "header",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 12
+                },
+                "name" : "inside: screen 0px top left right",
+                "highlight" : [ "header", "screen" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 13
+                },
+                "name" : "height: 58px",
+                "highlight" : [ "header" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Navigation",
+            "objects" : [ {
+              "name" : "navigation",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 18
+                },
+                "name" : "inside: screen 0px left",
+                "highlight" : [ "navigation", "screen" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 19
+                },
+                "name" : "below: header 0px",
+                "highlight" : [ "navigation", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 31
+                },
+                "name" : "inside: screen 0px left right",
+                "highlight" : [ "navigation", "screen" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 32
+                },
+                "name" : "above: main 0px",
+                "highlight" : [ "navigation", "main" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 33
+                },
+                "name" : "height: 50 to 100px",
+                "highlight" : [ "navigation" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Footer",
+            "objects" : [ {
+              "name" : "footer",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 45
+                },
+                "name" : "inside: screen 0px left right",
+                "highlight" : [ "footer", "screen" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 46
+                },
+                "name" : "below: banner-panel 0px",
+                "highlight" : [ "footer", "banner-panel" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 47
+                },
+                "name" : "height: 100px",
+                "highlight" : [ "footer" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Main",
+            "objects" : [ {
+              "name" : "main",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 57
+                },
+                "name" : "inside: screen 0px left",
+                "highlight" : [ "main", "screen" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 58
+                },
+                "name" : "below: navigation 0px",
+                "highlight" : [ "main", "navigation" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Banner panel",
+            "objects" : [ {
+              "name" : "banner-panel",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 69
+                },
+                "name" : "width: 220 to 400px",
+                "highlight" : [ "banner-panel" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 70
+                },
+                "name" : "aligned horizontally all: main",
+                "highlight" : [ "banner-panel", "main" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/shopping-cart.spec",
+                  "lineNumber" : 75
+                },
+                "name" : "below: navigation 0px",
+                "highlight" : [ "banner-panel", "navigation" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "navigation" : {
+              "area" : [ 0, 58, 886, 100 ]
+            },
+            "footer" : {
+              "area" : [ 0, 258, 886, 100 ]
+            },
+            "header" : {
+              "area" : [ 0, 0, 886, 58 ]
+            },
+            "screen" : {
+              "area" : [ 0, 0, 886, 506 ]
+            },
+            "main" : {
+              "area" : [ 0, 158, 591, 100 ]
+            },
+            "banner-panel" : {
+              "area" : [ 591, 158, 295, 100 ]
+            }
+          },
+          "screenshot" : "layout-2-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1431530791312,
+        "type" : "node"
+      } ],
+      "time" : 1431530788435,
+      "type" : "node"
+    } ]
+  }
+}
